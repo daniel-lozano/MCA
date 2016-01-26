@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+
+int  main(void){
+  int pasos=1000;
+  int i;
+  float dt=1.0/pasos;
+  float alpha=1.0;
+  FILE *f,*g;
+  
+  //explicit y_{n+1}=y_{n}+y'_{n}*dt
+
+  for(i=0;i<pasos;i++){
+    
+  }
+
+  //implicit y_{n+1}=y_{n}+y'_{n+1}*dt
+
+
+
+
+
+
+}

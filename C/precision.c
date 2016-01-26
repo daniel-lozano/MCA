@@ -9,7 +9,7 @@ int main(int arg, char **argc){
   int min;
   float x,p1,p2;
   int a,i;
-  double dife;
+  float dife;
   FILE *f;
 
 
@@ -17,7 +17,6 @@ int main(int arg, char **argc){
   f=fopen("diferencia.dat","w");
 
   min = atoi(argc[1]);
-  printf("aqui?\n");
 
   for(i=1;i<=min;i++){
     a=pow(10,i);
@@ -32,7 +31,7 @@ int main(int arg, char **argc){
 	p2=x;
       }
     }
-    dife= (double) p2-p1;
+    dife= p2-p1;
     //printf("p1=%.20e\n", p1);
     //printf("p2=%.20e\n", p2);
     //printf("dife=%.20e\n", dife);
